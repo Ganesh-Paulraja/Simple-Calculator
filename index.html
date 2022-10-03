@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="calc-box">
+      <div class="header-row">
+        <h1>Calculator</h1>
+        <button>Light</button>
+      </div>
+      <div class="first-row">
+        <input type="text" placeholder="Result" id="calc-res" readonly />
+        <button onclick="resValue.value = ''">C</button>
+      </div>
+      <div class="second-row">
+        <button onclick = "updateNum(1)">1</button>
+        <button onclick = "updateNum(2)">2</button>
+        <button onclick = "updateNum(3)">3</button>
+        <button onclick = "updateNum('+')">+</button>
+      </div>
+      <div class="second-row">
+        <button onclick = "updateNum(4)">4</button>
+        <button onclick = "updateNum(5)">5</button>
+        <button onclick = "updateNum(6)">6</button>
+        <button onclick = "updateNum('-')">-</button>
+      </div>
+      <div class="second-row">
+        <button onclick = "updateNum(7)">7</button>
+        <button onclick = "updateNum(8)">8</button>
+        <button onclick = "updateNum(9)">9</button>
+        <button onclick = "updateNum('*')">x</button>
+      </div>
+      <div class="second-row">
+        <button onclick = "updateNum('/')">/</button>
+        <button onclick = "updateNum(0)">0</button>
+        <button onclick = "updateNum('.')">.</button>
+        <button onclick = "calculate()">=</button>
+      </div>
+    </div>
+  </div>
+  <button onclick="alert('work')">work</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #07d2c7;
+}
+.container .calc-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 220px;
+}
+.container .calc-box .header-row {
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+}
+.container .calc-box .header-row h1 {
+  font-size: 28px;
+}
+.container .calc-box .header-row button {
+  width: 60px;
+  height: 25px;
+  margin-left: 30px;
+  background-color: #fff;
+  font-weight: 600;
+  border: 1px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.container .calc-box .first-row {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.container .calc-box .first-row input {
+  border: none;
+  width: 170px;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 20px;
+  outline: none;
+}
+.container .calc-box .first-row button {
+  background: red;
+  color: #fff;
+}
+.container .calc-box .second-row {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.container .calc-box .second-row button {
+  background-color: #fff;
+}
+.container .calc-box .second-row button:hover {
+  background-color: rgb(37, 35, 59);
+  color: #fff;
+}
+.container .calc-box button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
